@@ -1,0 +1,13 @@
+
+.socialNet{
+    color: white;
+}
+
+img { transition: all 0.6s ease-in-out 0s; }
+img:hover
+{
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.6s ease-in-out 0s;
+}
+
