@@ -16,5 +16,10 @@ img:hover
     .hideTable {
      display: none;
     }
+    
+    #table,#table1,#table2,#table3{
+
+        display: contents;
+    }
   }
   
