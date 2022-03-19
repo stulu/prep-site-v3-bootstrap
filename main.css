@@ -22,4 +22,17 @@ img:hover
         display: contents;
     }
   }
+
+  #canvas {
+
+    padding-left: 4rem;
+    padding-top: 4rem;
+    
+}
+
+#locationPic{
+
+    padding-top: 5rem;
+}
+
   
