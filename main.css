@@ -1,8 +1,21 @@
 
-.socialNet{
-    color: blue;
+body{ 
+
+    background-color: #f5f7f8;
+    padding: top 16px;
 }
 
+
+.socialNet{
+    color: rgb(106, 106, 245);
+    
+}
+
+.fab{
+
+    padding-top: 5px;
+    padding-right: 3px;
+}
 img { transition: all 0.6s ease-in-out 0s; }
 img:hover
 {
@@ -35,4 +48,64 @@ img:hover
     padding-top: 5rem;
 }
 
-  
+h1{
+
+    color: rgba(0, 0, 0, 0.829);
+    margin-top: 17px;
+    font-family: Montserrat;
+    font-weight:450;
+}
+
+h2{
+    color: rgba(0, 0, 0, 0.829);
+    font-family: Montserrat;
+    font-weight: 500;
+
+}
+
+p{
+
+    font-family:Ovo;
+    font-weight:400;
+    font-size: 17px;
+    color: #222;
+}
+
+td{
+
+    font-family:Ovo;
+    font-weight:400;
+    font-size: 17px;
+    color: #222;
+
+}
+
+.table th{
+    background-color: rgb(83, 78, 78);
+    color: white;
+}
+.navbar{
+    background-color: rgb(83, 78, 78);
+}
+
+.nav-link {
+    color: white;
+}
+
+.footer{
+    background-color: rgb(83, 78, 78);
+}
+
+.offset:before { 
+	display: block; 
+ 	content: " "; 
+  	height: 100px;      /* Give height of your fixed element */
+        margin-top: -40px; /* Give negative margin of your fixed element */  	
+        visibility: hidden; 
+}
+
+.footText {
+
+    color: white;
+    font-size:10px;
+}

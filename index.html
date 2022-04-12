@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="main.css" type="text/css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/44a649f4bd.js" crossorigin="anonymous"></script>
 
 </head>
@@ -17,14 +17,16 @@
 
 <body class="d-flex flex-column min-vh-100 p-1">
 
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-md fixed-top">
         <div class="container-fuid">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-expanded="false">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars" style="color:rgba(255, 255, 255, 0.945); font-size:28px;"></i>
+                </span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav p-1">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar" aria-expanded="false">
+                <ul class="navbar-nav p-3">
 
                     <li class="nav-item">
                         <a class="nav-link" href="#time">TIME</a>
@@ -68,7 +70,7 @@
 
         <div class="row p-1">
             <div class="col-sm-12 text-black pt-3">
-                <h1>The World of English Prepositions</h1>
+                <h1 class="title">The World of English Prepositions</h1>
                 <p>First thing to remember is that you will make mistakes when using the good old English preposition.
                     Infact, you will commonly see even natives making mistakes with them, so don't feel down when you
                     inevitably make some when using them.
@@ -150,7 +152,7 @@
                 </div>
             </div>
         </div>
-
+      
         <div id="time" class="row py-5 px-1">
             <div class="col-sm-4 pt-1">
                 <h2>Prepositions of time</h2>
@@ -166,6 +168,7 @@
                         data-bs-toggle="collapse" data-bs-target="#table1" aria-expanded="true"><i
                             class="float-end fas fa-minus"></i></button>
                 </div>
+                
                 <div id="table1" class="collapse show">
                     <table class="table table-hover">
                         <tr class="table-dark">
@@ -189,7 +192,7 @@
                             <tr>
                                 <td>on</td>
                                 <td>days and dates</td>
-                                <td>On friday let us all go for a drink or Chrsitmas day is on December 25th</td>
+                                <td>On Friday let us all go for a drink or Chrsitmas day is on December 25th</td>
                             </tr>
 
                             <tr>
@@ -252,7 +255,7 @@
 
         <div id="place" class="row px-1">
             <div class="col-sm-4 pt-1">
-                <h2>Prepositions of place</h2>
+                <h2 class="offset">Prepositions of place</h2>
                 <p>A preposition of place describes where something is located in reference to something else, or where
                     something occurred or will occur.
                     Like the prepositions of time, the most common prepositions of place are also at, in, and on. </p>
@@ -356,13 +359,13 @@
                     (**Under and below can both describe something lower than something else, but under can also
                     describe something that is directly in contact with something on top of it. For example: “The puppy
                     hid under the blanket” is correct, whereas “The puppy hid below the blanket” is incorrect.)
-                </p>
+                </p> 
             </div>
         </div>
 
         <div id="direction" class="row px-1">
             <div class="col-sm-4 pt-1">
-                <h2>Prepositions of direction or movement</h2>
+                <h2 class="offset">Prepositions of direction or movement</h2>
                 <p>A preposition of direction or movement describes how, where, or in what way something moves.</p><br>
                 <img src="upanddownarrow.png" class="d-none d-sm-block img-fluid">
                 <img src="Two_way_black_arrow_art_illustration.jpg" class="d-none d-sm-block img-fluid">
@@ -377,8 +380,8 @@
                             class="float-end fas fa-minus"></i></button>
                 </div>
                 <div id="table3" class="collapse show">
-                    <table class="table table-hover">
-                        <tr class="table-dark">
+                    <table class="table table-hover table-light"> 
+                        <tr>
                             <th>Preposition of direction or movement</th>
                             <th>What it describes</th>
                             <th>Examples</th>
@@ -493,8 +496,8 @@
         </div>
 
         <div id="agency1" class="row ">
-            <div class="col-sm-4 pt-3 border border-primary mt-1">
-                <h2>Prepositions of agency</h2>
+            <div class="col-sm-4 pt-3 mt-1">
+                <h2 class="offset">Prepositions of agency</h2>
                 <p>A preposition of agency describes a person or a thing that has caused or is causing something to
                     occur. Sentences containing prepositions of agency are usually written in the passive voice and
                     employ the prepositions by (for people) and with (for things). For example:</p> <br>
@@ -504,8 +507,8 @@
                 <h4>“Emotion filled her heart.” (active)</h4>
             </div>
 
-            <div id="instrument1" class="col-sm-4 pt-3 border border-primary mt-1">
-                <h2>Prepositions of instrument or device</h2>
+            <div id="instrument1" class="col-sm-4 pt-3 mt-1">
+                <h2 class="offset">Prepositions of instrument or device</h2>
                 <p>A preposition of instrument or device is used when describing certain technologies, machines, or
                     devices. These prepositions are by, with, and on. Typically, by refers to methods of transportation,
                     whereas with and on describe the use of machines and other devices. For example:</p><br>
@@ -514,8 +517,8 @@
                 <h4> “May I finish my homework on your computer?”</h4>
             </div>
 
-            <div id="reason1" class="col-sm-4 pt-3 border border-primary mt-1">
-                <h2>Prepositions of reason or purpose</h2>
+            <div id="reason1" class="col-sm-4 pt-3 mt-1">
+                <h2 class="offset">Prepositions of reason or purpose</h2>
                 <p>A preposition of reason or purpose describes why something has occurred or will occur. Common
                     prepositions of reason or purpose include for, through, because of, on account of, and from.</p>
                 <p> For example:</p><br>
@@ -528,8 +531,8 @@
         </div>
 
         <div class="row">
-            <div id="connection1" class="col-sm-6 pt-3 border border-primary mt-1">
-                <h2>Prepositions of connection</h2>
+            <div id="connection1" class="col-sm-6 pt-3 mt-1">
+                <h2 class="offset">Prepositions of connection</h2>
                 <p>A preposition of connection describes possession, relationships, or accompaniment. Of is used for
                     possession, to for relationships between people or things, and with for accompaniment.</p>
                 <p>For example:</p><br>
@@ -538,8 +541,8 @@
                 <h4>“Rosa wanted to go to the cinema with Juan.”</h4>
             </div>
 
-            <div id="origin1" class="col-sm-6 pt-3 border border-primary mt-1">
-                <h2>Origin</h2>
+            <div id="origin1" class="col-sm-6 pt-3 mt-1">
+                <h2 class="offset">Origin</h2>
                 <p>When we describe a person or thing’s origin (such as nationality, hometown/state, ethnicity, the
                     place where something was built or designed, etc.), we typically use the preposition from (and, to a
                     lesser degree, of). For example:</p><br>
@@ -552,7 +555,7 @@
 
     </div>
 
-    <div class="end message shadow p-4 mb-4 bg-white col-sm-12 text-danger">
+    <div class="end message shadow p-4 mb-4 bg-white col-sm-12 text-dark">
         <h1>Thanks for getting to the end of it all, I hope it was useful to you in one way or another!!</h1>
     </div>
 
@@ -565,21 +568,27 @@
         </div>  
     
     -->
-    <div class="bg-dark text-center text-white">
+    <div class=" footer text-center text-white">
         <footer>
-            <a class="socialNet" href="https://www.facebook.com/"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-            <a class="socialNet" href="https://www.linkedin.com/in/stuart-lenox-375b5b74/"><i class="fab fa-linkedin"
+            <a class="socialNet" href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
+            <a class="socialNet" href="https://www.linkedin.com/in/stuart-lenox-375b5b74/"><i class="fab fa-linkedin fa-2x"
                     aria-hidden="true"></i></a>
-            <a class="socialNet" href="https://github.com/stulu"><i class="fab fa-github" aria-hidden="true"></i></a>
-            <p>Rights reserved</p>
+            <a class="socialNet" href="https://github.com/stulu"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+            <p class="footText">Rights reserved</p>
         </footer>
     </div>
 
-    <!-- j query function for all tables -->
+    <!-- j query function for all tables --> <!-- Javascript to collapse hamburger menu after clicking on item -->    
     <script>
         $('.table-hide').click(function () {
             $(this).find('i').toggleClass('fas fa-plus fas fa-minus');
         });
+
+        $(document).on('click','.navbar-collapse',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
     </script>
 
     <script>
