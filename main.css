@@ -38,7 +38,7 @@ img:hover
 
   #canvas {
 
-    padding-left: 4rem;
+    padding-left: 1rem;
     padding-top: 4rem;
     
 }
@@ -46,6 +46,10 @@ img:hover
 #locationPic{
 
     padding-top: 5rem;
+}
+
+h1.title{
+    text-align: center;
 }
 
 h1{
@@ -108,4 +112,5 @@ td{
 
     color: white;
     font-size:10px;
+    
 }
